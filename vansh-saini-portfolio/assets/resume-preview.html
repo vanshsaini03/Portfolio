@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vansh Saini - Resume | B.Tech CSE</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@600;700;800&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --primary: #1e3a8a;
+      --accent: #0284c7;
+      --text: #1e293b;
+      --text-muted: #64748b;
+      --border: #e2e8f0;
+      --bg: #ffffff;
+    }
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: 'Inter', sans-serif;
+      color: var(--text);
+      background: #f1f5f9;
+      line-height: 1.5;
+      padding: 2rem 1rem;
+    }
+    .resume-wrapper {
+      max-width: 800px;
+      margin: 0 auto;
+      background: #fff;
+      padding: 3rem;
+      border-radius: 8px;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.05);
+      border: 1px solid var(--border);
+    }
+    .header {
+      border-bottom: 2px solid var(--primary);
+      padding-bottom: 1.5rem;
+      margin-bottom: 1.5rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      flex-wrap: wrap;
+      gap: 1rem;
+    }
+    .name {
+      font-family: 'Outfit', sans-serif;
+      font-size: 2.2rem;
+      font-weight: 800;
+      color: var(--primary);
+      line-height: 1.1;
+    }
+    .role {
+      font-size: 1.05rem;
+      font-weight: 600;
+      color: var(--accent);
+      margin-top: 0.25rem;
+    }
+    .contact-details {
+      font-size: 0.85rem;
+      color: var(--text-muted);
+      text-align: right;
+      line-height: 1.6;
+    }
+    .contact-details a { color: var(--accent); text-decoration: none; font-weight: 500; }
+    .section-title {
+      font-family: 'Outfit', sans-serif;
+      font-size: 1.1rem;
+      font-weight: 700;
+      color: var(--primary);
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      border-bottom: 1px solid var(--border);
+      padding-bottom: 0.35rem;
+      margin: 1.5rem 0 0.85rem 0;
+    }
+    .item { margin-bottom: 1.1rem; }
+    .item-header {
+      display: flex;
+      justify-content: space-between;
+      font-weight: 600;
+      font-size: 0.95rem;
+      color: var(--text);
+    }
+    .item-sub {
+      font-size: 0.875rem;
+      color: var(--accent);
+      font-weight: 500;
+      margin-bottom: 0.35rem;
+    }
+    .item-date {
+      font-size: 0.825rem;
+      color: var(--text-muted);
+      font-weight: 400;
+    }
+    ul { padding-left: 1.2rem; font-size: 0.875rem; color: #334155; }
+    li { margin-bottom: 0.3rem; }
+    .skills-block {
+      display: grid;
+      grid-template-columns: 140px 1fr;
+      gap: 0.5rem;
+      font-size: 0.875rem;
+      margin-bottom: 0.4rem;
+    }
+    .skill-cat { font-weight: 600; color: var(--primary); }
+    .print-bar {
+      max-width: 800px;
+      margin: 0 auto 1.5rem auto;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .btn-print {
+      background: var(--primary);
+      color: #fff;
+      padding: 0.6rem 1.4rem;
+      border-radius: 6px;
+      font-weight: 600;
+      border: none;
+      cursor: pointer;
+    }
+    @media print {
+      body { background: #fff; padding: 0; }
+      .resume-wrapper { box-shadow: none; border: none; padding: 0; }
+      .print-bar { display: none; }
+    }
+  </style>
+</head>
+<body>
+  <div class="print-bar">
+    <a href="../index.html" style="color: #1e3a8a; text-decoration: none; font-weight: 600;">← Back to Portfolio</a>
+    <button class="btn-print" onclick="window.print()">🖨️ Print / Save as PDF</button>
+  </div>
+
+  <div class="resume-wrapper">
+    <header class="header">
+      <div>
+        <h1 class="name">VANSH SAINI</h1>
+        <div class="role">B.Tech Computer Science Engineering Student | Aspiring Web Developer</div>
+        <div style="font-size: 0.9rem; color: #475569; margin-top: 0.2rem;">Lovely Professional University (LPU) • Batch 2025–2029</div>
+      </div>
+      <div class="contact-details">
+        <div>Email: <a href="mailto:vanshsainicse@gmail.com">vanshsainicse@gmail.com</a></div>
+        <div>Phone: +91 8439448216</div>
+        <div>GitHub: <a href="https://github.com/vanshsaini03" target="_blank">github.com/vanshsaini03</a></div>
+        <div>LinkedIn: <a href="#">linkedin.com/in/vansh-saini</a></div>
+      </div>
+    </header>
+
+    <section>
+      <h2 class="section-title">Education</h2>
+      <div class="item">
+        <div class="item-header">
+          <span>Bachelor of Technology (B.Tech) – Computer Science Engineering</span>
+          <span class="item-date">2025 – 2029</span>
+        </div>
+        <div class="item-sub">Lovely Professional University (LPU), Punjab, India</div>
+      </div>
+      <div class="item">
+        <div class="item-header">
+          <span>Senior Secondary (Class XII) – PCM</span>
+          <span class="item-date">2023 – 2024</span>
+        </div>
+        <div class="item-sub">Score: 80%</div>
+      </div>
+      <div class="item">
+        <div class="item-header">
+          <span>Secondary (Class X)</span>
+          <span class="item-date">2021 – 2022</span>
+        </div>
+        <div class="item-sub">Score: 89%</div>
+      </div>
+    </section>
+
+    <section>
+      <h2 class="section-title">Technical Skills</h2>
+      <div class="skills-block">
+        <div class="skill-cat">Web Technologies:</div>
+        <div>HTML5, CSS3, JavaScript (ES6+), Responsive UI/UX Design, DOM API</div>
+      </div>
+      <div class="skills-block">
+        <div class="skill-cat">Core &amp; Languages:</div>
+        <div>Python, C, Data Structures &amp; Algorithms, Object-Oriented Programming (OOP), DBMS</div>
+      </div>
+      <div class="skills-block">
+        <div class="skill-cat">IoT &amp; Hardware:</div>
+        <div>Arduino, ESP32, Sensors (BH1750, MLX90614, BMP280, Soil Moisture), Relays, Embedded Systems</div>
+      </div>
+      <div class="skills-block">
+        <div class="skill-cat">Tools &amp; Platforms:</div>
+        <div>Git, GitHub, Figma, Arduino IDE, Blynk IoT Cloud, VS Code</div>
+      </div>
+      <div class="skills-block">
+        <div class="skill-cat">Professional:</div>
+        <div>Problem-Solving, Teamwork, Technical Communication, Adaptability, Rapid Learning</div>
+      </div>
+    </section>
+
+    <section>
+      <h2 class="section-title">Key Projects</h2>
+      <div class="item">
+        <div class="item-header">
+          <span>IoT-Based Autonomous Irrigation Control System</span>
+          <span class="item-date">2025 – 2026</span>
+        </div>
+        <div class="item-sub">ESP32, Arduino, Blynk IoT, BH1750, MLX90614, BMP280, Soil Moisture Sensor, C/C++</div>
+        <ul>
+          <li>Developed an autonomous closed-loop irrigation system measuring ambient light, soil moisture, and atmospheric pressure.</li>
+          <li>Integrated MLX90614 non-contact infrared sensor to assess plant canopy temperature and Vapor Pressure Deficit (VPD) stress metrics.</li>
+          <li>Engineered real-time telemetry dashboard in Blynk IoT with automated threshold triggers and remote manual override.</li>
+        </ul>
+      </div>
+
+      <div class="item">
+        <div class="item-header">
+          <span>Embedded Systems &amp; IoT Automation Projects</span>
+          <span class="item-date">2024 – 2025</span>
+        </div>
+        <div class="item-sub">Arduino, ESP32, Relays, Transducers, Wireless Telemetry</div>
+        <ul>
+          <li>Constructed hardware automation testbeds interfacing microcontrollers with multi-channel relay modules and sensor suites.</li>
+          <li>Implemented non-blocking event loops, watchdog resets, and wireless data streaming.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section>
+      <h2 class="section-title">Experience &amp; Volunteer Activities</h2>
+      <div class="item">
+        <div class="item-header">
+          <span>Student Volunteer – Academic &amp; Environmental Awareness</span>
+          <span class="item-date">June 2026 – July 2026</span>
+        </div>
+        <div class="item-sub">Government School, Saharanpur, Uttar Pradesh</div>
+        <ul>
+          <li>Delivered academic support and fundamental science guidance to elementary and middle school students.</li>
+          <li>Led environmental conservation and interactive learning sessions, fostering teamwork and community engagement.</li>
+        </ul>
+      </div>
+    </section>
+  </div>
+</body>
+</html>

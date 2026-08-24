@@ -1,0 +1,1028 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!-- Primary SEO Meta Tags -->
+  <title>Vansh Saini | Computer Science Engineering Student &amp; Aspiring Web Developer</title>
+  <meta name="title" content="Vansh Saini | Computer Science Engineering Student &amp; Aspiring Web Developer">
+  <meta name="description" content="Portfolio of Vansh Saini, B.Tech Computer Science Engineering student at Lovely Professional University (LPU), Batch 2025–2029. Discover web development projects, IoT &amp; embedded systems innovations, and technical expertise.">
+  <meta name="keywords" content="Vansh Saini, Vansh Saini Portfolio, Computer Science Student, Web Developer, LPU CSE, IoT Developer, ESP32, Arduino, Blynk IoT, Saharanpur">
+  <meta name="author" content="Vansh Saini">
+  <meta name="robots" content="index, follow">
+  <meta name="theme-color" content="#070c18">
+  
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Vansh Saini | Portfolio - Computer Science Engineering">
+  <meta property="og:description" content="Building Ideas into Digital Experiences. Passionate about Web Development, IoT, and Practical Problem-Solving.">
+  <meta property="og:image" content="assets/favicon.svg">
+  
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:title" content="Vansh Saini | Portfolio - Computer Science Engineering">
+  <meta property="twitter:description" content="Building Ideas into Digital Experiences. Passionate about Web Development, IoT, and Practical Problem-Solving.">
+  
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+  
+  <!-- Google Fonts Preconnect -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/animations.css">
+</head>
+<body>
+
+  <!-- Background Interactive Canvas -->
+  <canvas id="background-canvas" aria-hidden="true"></canvas>
+
+  <!-- ==================== HEADER / NAVBAR ==================== -->
+  <header class="header" id="main-header">
+    <div class="container nav-container">
+      <a href="#home" class="brand-logo" aria-label="Vansh Saini Home">
+        <div class="logo-symbol">VS</div>
+        <div class="brand-name">
+          <span class="name">Vansh Saini</span>
+          <span class="sub">B.Tech CSE • LPU</span>
+        </div>
+      </a>
+
+      <!-- Desktop & Mobile Navigation Links -->
+      <nav class="nav-menu" id="nav-menu" aria-label="Main Navigation">
+        <a href="#home" class="nav-link active">Home</a>
+        <a href="#about" class="nav-link">About</a>
+        <a href="#skills" class="nav-link">Skills</a>
+        <a href="#projects" class="nav-link">Projects</a>
+        <a href="#experience" class="nav-link">Experience</a>
+        <a href="#education" class="nav-link">Education</a>
+        <a href="#contact" class="nav-link">Contact</a>
+        
+        <!-- Mobile Actions in Drawer -->
+        <div class="nav-actions-mobile">
+          <a href="assets/resume-preview.html" target="_blank" class="btn btn-secondary btn-sm" style="width: 100%;">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+              <polyline points="14 2 14 8 20 8"></polyline>
+              <line x1="16" y1="13" x2="8" y2="13"></line>
+              <line x1="16" y1="17" x2="8" y2="17"></line>
+            </svg>
+            View Resume
+          </a>
+          <a href="#contact" class="btn btn-primary btn-sm" style="width: 100%;">Get In Touch</a>
+        </div>
+      </nav>
+
+      <!-- Desktop CTA Action Buttons -->
+      <div class="nav-actions">
+        <a href="assets/resume-preview.html" target="_blank" class="btn btn-secondary btn-sm" title="View & Print Resume">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+            <polyline points="14 2 14 8 20 8"></polyline>
+            <line x1="16" y1="13" x2="8" y2="13"></line>
+            <line x1="16" y1="17" x2="8" y2="17"></line>
+          </svg>
+          Resume
+        </a>
+        <a href="#contact" class="btn btn-primary btn-sm">Let's Connect</a>
+      </div>
+
+      <!-- Hamburger Button for Mobile View -->
+      <button class="mobile-toggle" id="mobile-nav-toggle" aria-label="Toggle navigation menu" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- ==================== MAIN CONTENT ==================== -->
+  <main id="main-content">
+
+    <!-- 1. HERO SECTION -->
+    <section class="hero-section" id="home">
+      <div class="container">
+        <div class="hero-grid">
+          
+          <!-- Left: Hero Headline & CTAs -->
+          <div class="hero-content reveal-init">
+            <div class="badge-wrapper">
+              <div class="status-badge">
+                <span class="status-dot"></span>
+                <span>Open for Internships &amp; Freelance</span>
+              </div>
+              <div class="lpu-badge">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M22 10v6M2 10l10-5 10 5-10 5z"></path>
+                  <path d="M6 12v5c3 3 9 3 12 0v-5"></path>
+                </svg>
+                <span>LPU CSE • Batch 2025–2029</span>
+              </div>
+            </div>
+
+            <h1 class="hero-headline">
+              Building Ideas into <span class="gradient-highlight">Digital Experiences.</span>
+            </h1>
+
+            <p class="hero-subheadline">
+              I’m <strong>Vansh Saini</strong>, a Computer Science Engineering student passionate about <strong>web development</strong>, <strong>technology</strong>, <strong>IoT</strong>, and building practical solutions to real-world problems.
+            </p>
+
+            <div class="hero-cta-group">
+              <a href="#projects" class="btn btn-primary ripple" id="hero-view-projects">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <polygon points="12 2 2 7 12 12 22 7 12 2"></polygon>
+                  <polyline points="2 17 12 22 22 17"></polyline>
+                  <polyline points="2 12 12 17 22 12"></polyline>
+                </svg>
+                View My Projects
+              </a>
+              <a href="#contact" class="btn btn-secondary ripple" id="hero-contact-me">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                  <polyline points="22,6 12,13 2,6"></polyline>
+                </svg>
+                Contact Me
+              </a>
+              <button class="btn btn-outline" data-copy-text="vanshsainicse@gmail.com" data-copy-label="Email" title="Copy Email Address">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
+                  <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+                </svg>
+                Copy Email
+              </button>
+            </div>
+
+            <!-- Quick Social Pill Links -->
+            <div class="hero-social-links">
+              <a href="https://github.com/vanshsaini03" target="_blank" rel="noopener noreferrer" class="social-item" title="Visit GitHub Profile">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/>
+                </svg>
+                <span>github.com/vanshsaini03</span>
+              </a>
+              <a href="#" class="social-item linkedin-placeholder" title="LinkedIn Profile">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
+                </svg>
+                <span>LinkedIn</span>
+              </a>
+              <a href="tel:+918439448216" class="social-item" title="Call Phone">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+                </svg>
+                <span>+91 8439448216</span>
+              </a>
+            </div>
+          </div>
+
+          <!-- Right: Interactive Code Window -->
+          <div class="hero-visual reveal-init stagger-2">
+            <div class="hero-code-card">
+              <div class="code-card-header">
+                <div class="window-dots">
+                  <span class="dot dot-red"></span>
+                  <span class="dot dot-yellow"></span>
+                  <span class="dot dot-green"></span>
+                </div>
+                <div class="file-tab">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <polyline points="16 18 22 12 16 6"></polyline>
+                    <polyline points="8 6 2 12 8 18"></polyline>
+                  </svg>
+                  <span>vansh_saini.config.js</span>
+                </div>
+                <button class="copy-btn" id="copy-code-btn" title="Copy profile snippet">
+                  <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
+                    <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+                  </svg>
+                  Copy
+                </button>
+              </div>
+
+              <div class="code-card-body">
+                <div class="code-line"><span class="line-num">1</span><span class="line-code"><span class="syn-kw">const</span> <span class="syn-var">engineer</span> = {</span></div>
+                <div class="code-line"><span class="line-num">2</span><span class="line-code">&nbsp;&nbsp;<span class="syn-prop">name</span>: <span class="syn-str">"Vansh Saini"</span>,</span></div>
+                <div class="code-line"><span class="line-num">3</span><span class="line-code">&nbsp;&nbsp;<span class="syn-prop">role</span>: <span class="syn-str">"Computer Science Engineering Student"</span>,</span></div>
+                <div class="code-line"><span class="line-num">4</span><span class="line-code">&nbsp;&nbsp;<span class="syn-prop">institution</span>: <span class="syn-str">"Lovely Professional University"</span>,</span></div>
+                <div class="code-line"><span class="line-num">5</span><span class="line-code">&nbsp;&nbsp;<span class="syn-prop">cohort</span>: <span class="syn-str">"2025 – 2029"</span>,</span></div>
+                <div class="code-line"><span class="line-num">6</span><span class="line-code">&nbsp;&nbsp;<span class="syn-prop">coreFocus</span>: [</span></div>
+                <div class="code-line"><span class="line-num">7</span><span class="line-code">&nbsp;&nbsp;&nbsp;&nbsp;<span class="syn-str">"Web Development"</span>,</span></div>
+                <div class="code-line"><span class="line-num">8</span><span class="line-code">&nbsp;&nbsp;&nbsp;&nbsp;<span class="syn-str">"Internet of Things (IoT)"</span>,</span></div>
+                <div class="code-line"><span class="line-num">9</span><span class="line-code">&nbsp;&nbsp;&nbsp;&nbsp;<span class="syn-str">"Embedded Systems Automation"</span>,</span></div>
+                <div class="code-line"><span class="line-num">10</span><span class="line-code">&nbsp;&nbsp;&nbsp;&nbsp;<span class="syn-str">"Data Structures &amp; Problem Solving"</span></span></div>
+                <div class="code-line"><span class="line-num">11</span><span class="line-code">&nbsp;&nbsp;],</span></div>
+                <div class="code-line"><span class="line-num">12</span><span class="line-code">&nbsp;&nbsp;<span class="syn-prop">hardwareInterfacing</span>: [<span class="syn-str">"ESP32"</span>, <span class="syn-str">"Arduino"</span>, <span class="syn-str">"Blynk IoT"</span>],</span></div>
+                <div class="code-line"><span class="line-num">13</span><span class="line-code">&nbsp;&nbsp;<span class="syn-prop">status</span>: <span class="syn-str">"Ready for Internships &amp; Collaborations"</span></span></div>
+                <div class="code-line"><span class="line-num">14</span><span class="line-code">};</span></div>
+              </div>
+
+              <div class="card-status-strip">
+                <div class="status-indicator">
+                  <span class="status-dot" style="width: 6px; height: 6px;"></span>
+                  <span>System Online • ES6+ Ready</span>
+                </div>
+                <span>UTF-8 • JavaScript</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Quick Metrics Highlights Strip -->
+        <div class="metrics-strip reveal-init stagger-3">
+          <div class="metric-item">
+            <span class="metric-val">4+</span>
+            <span class="metric-label">Core Technical Domains</span>
+          </div>
+          <div class="metric-item">
+            <span class="metric-val">2+</span>
+            <span class="metric-label">Key IoT &amp; Hardware Deployments</span>
+          </div>
+          <div class="metric-item">
+            <span class="metric-val">15+</span>
+            <span class="metric-label">Tools, Languages &amp; Frameworks</span>
+          </div>
+          <div class="metric-item">
+            <span class="metric-val">80%+</span>
+            <span class="metric-label">Academic Track Record</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 2. ABOUT ME SECTION -->
+    <section class="section" id="about">
+      <div class="container">
+        <div class="section-header reveal-init">
+          <div class="section-tag">
+            <span class="tag-dot"></span>
+            <span>About Me</span>
+          </div>
+          <h2 class="section-title">Bridging Software Logic with <span class="gradient-text">Hardware Innovation</span></h2>
+          <p class="section-subtitle">A focused look at my academic journey, technical passions, and drive to build impactful solutions.</p>
+        </div>
+
+        <div class="about-grid">
+          <!-- Text Introduction -->
+          <div class="about-text reveal-init">
+            <p class="about-lead">
+              Hello! I’m <strong>Vansh Saini</strong>, a Computer Science Engineering student at <strong>Lovely Professional University (LPU)</strong>, Batch 2025–2029.
+            </p>
+            <p>
+              I have a strong interest in <strong>Web Development</strong>, the <strong>Internet of Things (IoT)</strong>, and <strong>Embedded Systems</strong>. My drive lies in combining software engineering with real-world hardware interfacing to create automated, scalable solutions to practical challenges.
+            </p>
+            <p>
+              Whether it is developing clean, responsive frontend web experiences, configuring microcontroller telemetry with ESP32/Arduino, or writing structured algorithms in Python and C, I thrive on continuous learning and turning complex ideas into functional products.
+            </p>
+
+            <div class="about-highlights">
+              <div class="highlight-box">
+                <div class="highlight-icon">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
+                  </svg>
+                </div>
+                <div>
+                  <div class="highlight-title">Hardware + Cloud</div>
+                  <div class="highlight-desc">Seamless sensor telemetry into cloud dashboards.</div>
+                </div>
+              </div>
+
+              <div class="highlight-box">
+                <div class="highlight-icon">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <circle cx="12" cy="12" r="10"></circle>
+                    <polyline points="12 6 12 12 14 14"></polyline>
+                  </svg>
+                </div>
+                <div>
+                  <div class="highlight-title">Rapid Adaptability</div>
+                  <div class="highlight-desc">Quickly mastering modern tech stacks and tools.</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- 4 Core Pillars Grid -->
+          <div class="about-pillars reveal-init stagger-2">
+            <div class="glass-card pillar-card">
+              <div class="pillar-icon">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect>
+                  <line x1="8" y1="21" x2="16" y2="21"></line>
+                  <line x1="12" y1="17" x2="12" y2="21"></line>
+                </svg>
+              </div>
+              <h3 class="pillar-title">Web Development</h3>
+              <p class="pillar-desc">Building responsive, accessible, and fast-loading web interfaces using modern HTML5, CSS3, and JavaScript with an emphasis on intuitive user experience.</p>
+            </div>
+
+            <div class="glass-card pillar-card">
+              <div class="pillar-icon">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M5 12.55a11 11 0 0 1 14.08 0"></path>
+                  <path d="M1.42 9a16 16 0 0 1 21.16 0"></path>
+                  <path d="M8.53 16.11a6 6 0 0 1 6.95 0"></path>
+                  <line x1="12" y1="20" x2="12.01" y2="20"></line>
+                </svg>
+              </div>
+              <h3 class="pillar-title">IoT &amp; Embedded Systems</h3>
+              <p class="pillar-desc">Designing circuit prototypes, integrating multi-sensor arrays (I2C/ADC), and programming ESP32/Arduino microcontrollers for wireless telemetry and automation.</p>
+            </div>
+
+            <div class="glass-card pillar-card">
+              <div class="pillar-icon">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <polyline points="4 17 10 11 4 5"></polyline>
+                  <line x1="12" y1="19" x2="20" y2="19"></line>
+                </svg>
+              </div>
+              <h3 class="pillar-title">Programming &amp; Core CS</h3>
+              <p class="pillar-desc">Strong fundamentals in Data Structures, Algorithms, Object-Oriented Programming (OOP), and Database Management Systems (DBMS) in Python and C.</p>
+            </div>
+
+            <div class="glass-card pillar-card">
+              <div class="pillar-icon">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon>
+                </svg>
+              </div>
+              <h3 class="pillar-title">Practical Problem Solving</h3>
+              <p class="pillar-desc">Applying analytical thinking to convert real-world challenges (such as precision irrigation and device automation) into dependable technical implementations.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 3. SKILLS SECTION -->
+    <section class="section" id="skills" style="background: rgba(10, 16, 32, 0.4);">
+      <div class="container">
+        <div class="section-header reveal-init">
+          <div class="section-tag">
+            <span class="tag-dot"></span>
+            <span>Skills &amp; Technologies</span>
+          </div>
+          <h2 class="section-title">Technical <span class="gradient-text">Competency Matrix</span></h2>
+          <p class="section-subtitle">Categorized skills spanning frontend web engineering, programming fundamentals, IoT hardware, and development tools.</p>
+        </div>
+
+        <!-- Filter Tabs Navigation -->
+        <div class="skills-filter-nav reveal-init">
+          <button class="filter-btn active" data-filter="all">All Skills</button>
+          <button class="filter-btn" data-filter="web">Web Technologies</button>
+          <button class="filter-btn" data-filter="core">Programming &amp; Core</button>
+          <button class="filter-btn" data-filter="iot">IoT &amp; Electronics</button>
+          <button class="filter-btn" data-filter="tools">Tools &amp; Platforms</button>
+          <button class="filter-btn" data-filter="soft">Professional Skills</button>
+        </div>
+
+        <!-- Skills Cards Grid -->
+        <div class="skills-grid reveal-init stagger-2">
+          
+          <!-- Category 1: Web Technologies -->
+          <div class="glass-card skill-category-card" data-categories="web">
+            <div class="category-header">
+              <div class="category-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <polyline points="16 18 22 12 16 6"></polyline>
+                  <polyline points="8 6 2 12 8 18"></polyline>
+                </svg>
+              </div>
+              <h3 class="category-title">Web Technologies</h3>
+            </div>
+            <div class="skill-tags-list">
+              <span class="skill-tag">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+                HTML5
+              </span>
+              <span class="skill-tag">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+                CSS3
+              </span>
+              <span class="skill-tag">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+                JavaScript (ES6+)
+              </span>
+              <span class="skill-tag">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+                Responsive Web Design
+              </span>
+              <span class="skill-tag">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+                DOM Manipulation
+              </span>
+              <span class="skill-tag">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+                UI / UX Fundamentals
+              </span>
+            </div>
+            <p class="category-note">Clean semantic markup, fluid layouts, and client-side logic.</p>
+          </div>
+
+          <!-- Category 2: Programming & Core Concepts -->
+          <div class="glass-card skill-category-card" data-categories="core">
+            <div class="category-header">
+              <div class="category-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                  <polyline points="14 2 14 8 20 8"></polyline>
+                  <line x1="16" y1="13" x2="8" y2="13"></line>
+                  <line x1="16" y1="17" x2="8" y2="17"></line>
+                </svg>
+              </div>
+              <h3 class="category-title">Programming &amp; Core Concepts</h3>
+            </div>
+            <div class="skill-tags-list">
+              <span class="skill-tag">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+                Python
+              </span>
+              <span class="skill-tag">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+                C Language
+              </span>
+              <span class="skill-tag">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+                Data Structures &amp; Algorithms
+              </span>
+              <span class="skill-tag">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+                Object-Oriented Programming (OOP)
+              </span>
+              <span class="skill-tag">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+                DBMS
+              </span>
+            </div>
+            <p class="category-note">Solid theoretical and applied algorithmic foundations.</p>
+          </div>
+
+          <!-- Category 3: IoT & Electronics -->
+          <div class="glass-card skill-category-card" data-categories="iot">
+            <div class="category-header">
+              <div class="category-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M5 12.55a11 11 0 0 1 14.08 0"></path>
+                  <path d="M1.42 9a16 16 0 0 1 21.16 0"></path>
+                  <path d="M8.53 16.11a6 6 0 0 1 6.95 0"></path>
+                  <line x1="12" y1="20" x2="12.01" y2="20"></line>
+                </svg>
+              </div>
+              <h3 class="category-title">IoT &amp; Electronics</h3>
+            </div>
+            <div class="skill-tags-list">
+              <span class="skill-tag">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+                Arduino
+              </span>
+              <span class="skill-tag">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+                ESP32
+              </span>
+              <span class="skill-tag">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+                Sensors (BH1750, MLX90614, BMP280)
+              </span>
+              <span class="skill-tag">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+                Soil Moisture Probes
+              </span>
+              <span class="skill-tag">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+                Relay Switching Modules
+              </span>
+              <span class="skill-tag">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+                Embedded Systems Interfacing
+              </span>
+            </div>
+            <p class="category-note">Hardware circuit design, sensor calibration &amp; actuators.</p>
+          </div>
+
+          <!-- Category 4: Tools & Platforms -->
+          <div class="glass-card skill-category-card" data-categories="tools">
+            <div class="category-header">
+              <div class="category-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"></path>
+                </svg>
+              </div>
+              <h3 class="category-title">Tools &amp; Platforms</h3>
+            </div>
+            <div class="skill-tags-list">
+              <span class="skill-tag">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+                Git
+              </span>
+              <span class="skill-tag">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+                GitHub
+              </span>
+              <span class="skill-tag">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+                Figma
+              </span>
+              <span class="skill-tag">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+                Arduino IDE
+              </span>
+              <span class="skill-tag">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+                Blynk IoT Cloud
+              </span>
+              <span class="skill-tag">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+                VS Code
+              </span>
+            </div>
+            <p class="category-note">Version control, UI design, firmware toolchains &amp; IDEs.</p>
+          </div>
+
+          <!-- Category 5: Professional Skills -->
+          <div class="glass-card skill-category-card" data-categories="soft">
+            <div class="category-header">
+              <div class="category-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+                  <circle cx="9" cy="7" r="4"></circle>
+                  <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+                  <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+                </svg>
+              </div>
+              <h3 class="category-title">Professional &amp; Soft Skills</h3>
+            </div>
+            <div class="skill-tags-list">
+              <span class="skill-tag">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+                Problem-Solving
+              </span>
+              <span class="skill-tag">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+                Teamwork &amp; Collaboration
+              </span>
+              <span class="skill-tag">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+                Technical Communication
+              </span>
+              <span class="skill-tag">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+                Adaptability
+              </span>
+              <span class="skill-tag">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+                Continuous Learning
+              </span>
+            </div>
+            <p class="category-note">Effective communication, leadership, and structured teamwork.</p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- 4. PROJECTS SECTION -->
+    <section class="section" id="projects">
+      <div class="container">
+        <div class="section-header reveal-init">
+          <div class="section-tag">
+            <span class="tag-dot"></span>
+            <span>Featured Work</span>
+          </div>
+          <h2 class="section-title">Projects &amp; <span class="gradient-text">Engineering Systems</span></h2>
+          <p class="section-subtitle">Real-world applications combining IoT hardware telemetry, automated microcontrollers, and modern software design.</p>
+        </div>
+
+        <div class="projects-grid">
+          
+          <!-- PROJECT 1: IoT Autonomous Irrigation System -->
+          <article class="project-card reveal-init">
+            <div class="project-visual-wrapper">
+              <img src="assets/project-iot-irrigation.svg" alt="IoT-Based Autonomous Irrigation Control System Architecture" class="project-img">
+              <span class="project-type-badge">Featured IoT System</span>
+              <span class="project-date-badge">2025–2026</span>
+            </div>
+
+            <div class="project-body">
+              <h3 class="project-title">IoT-Based Autonomous Irrigation Control System</h3>
+              <p class="project-desc">
+                Developed an IoT-based irrigation system that monitors soil and environmental conditions to support intelligent and automated watering decisions. Integrated multiple sensors with Arduino and ESP32 for real-time monitoring and wireless connectivity. Designed a live Blynk IoT dashboard with automated irrigation and manual override functionality. The project also explores VPD and plant-stress-based logic for more adaptive irrigation decisions.
+              </p>
+
+              <div class="project-tech-stack">
+                <span class="tech-chip">ESP32</span>
+                <span class="tech-chip">Arduino</span>
+                <span class="tech-chip">Blynk IoT</span>
+                <span class="tech-chip">BH1750</span>
+                <span class="tech-chip">MLX90614</span>
+                <span class="tech-chip">BMP280</span>
+                <span class="tech-chip">Soil Moisture</span>
+              </div>
+
+              <div class="project-footer-actions">
+                <button class="btn btn-primary btn-sm ripple" data-modal-target="iot-irrigation">
+                  <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <circle cx="11" cy="11" r="8"></circle>
+                    <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                  </svg>
+                  Architecture &amp; Schematics
+                </button>
+                <a href="https://github.com/vanshsaini03" target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-sm">
+                  <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/>
+                  </svg>
+                  GitHub
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- PROJECT 2: Embedded Systems & IoT Automation -->
+          <article class="project-card reveal-init stagger-2">
+            <div class="project-visual-wrapper">
+              <img src="assets/project-embedded.svg" alt="Embedded Systems &amp; IoT Automation Prototyping Bench" class="project-img">
+              <span class="project-type-badge" style="background: rgba(139, 92, 246, 0.85);">Hardware Automation</span>
+              <span class="project-date-badge">2024–2025</span>
+            </div>
+
+            <div class="project-body">
+              <h3 class="project-title">Embedded Systems &amp; IoT Automation Projects</h3>
+              <p class="project-desc">
+                Built and experimented with sensor-based automation systems involving microcontrollers, relay modules, sensor integration, and real-time monitoring. Gained practical experience in hardware interfacing, wireless connectivity, and building technology solutions for real-world applications.
+              </p>
+
+              <div class="project-tech-stack">
+                <span class="tech-chip">Arduino</span>
+                <span class="tech-chip">ESP32</span>
+                <span class="tech-chip">Relays</span>
+                <span class="tech-chip">Analog/Digital Sensors</span>
+                <span class="tech-chip">C/C++</span>
+                <span class="tech-chip">IoT Telemetry</span>
+              </div>
+
+              <div class="project-footer-actions">
+                <button class="btn btn-primary btn-sm ripple" data-modal-target="embedded-automation">
+                  <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <circle cx="11" cy="11" r="8"></circle>
+                    <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                  </svg>
+                  Architecture &amp; Schematics
+                </button>
+                <a href="https://github.com/vanshsaini03" target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-sm">
+                  <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/>
+                  </svg>
+                  GitHub
+                </a>
+              </div>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- 5. EXPERIENCE & EDUCATION SECTION (DUAL TIMELINE) -->
+    <section class="section" id="experience" style="background: rgba(10, 16, 32, 0.5);">
+      <div class="container">
+        
+        <div class="dual-timeline-grid">
+          
+          <!-- Experience & Activities Column -->
+          <div class="reveal-init">
+            <div class="timeline-column-header">
+              <div class="timeline-column-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect>
+                  <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path>
+                </svg>
+              </div>
+              <h2 class="timeline-column-title">Experience &amp; Activities</h2>
+            </div>
+
+            <div class="timeline-track">
+              
+              <!-- Item 1: Student Volunteer -->
+              <div class="timeline-item">
+                <div class="timeline-node"></div>
+                <div class="glass-card timeline-card">
+                  <div class="timeline-card-header">
+                    <h3 class="timeline-role">Student Volunteer – Academic &amp; Environmental Awareness</h3>
+                    <span class="timeline-date">June 2026 – July 2026</span>
+                  </div>
+                  <div class="timeline-org">
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                      <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                      <circle cx="12" cy="10" r="3"></circle>
+                    </svg>
+                    <span>Government School, Saharanpur, Uttar Pradesh</span>
+                  </div>
+
+                  <ul class="timeline-bullets">
+                    <li>Provided academic support and fundamental science guidance to school students.</li>
+                    <li>Participated in and organized environmental conservation &amp; sustainability awareness activities.</li>
+                    <li>Conducted interactive, hands-on learning sessions encouraging scientific curiosity.</li>
+                    <li>Developed strong communication, leadership, teamwork, and organizational capabilities.</li>
+                  </ul>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+          <!-- Education Column -->
+          <div class="reveal-init stagger-2" id="education">
+            <div class="timeline-column-header">
+              <div class="timeline-column-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M22 10v6M2 10l10-5 10 5-10 5z"></path>
+                  <path d="M6 12v5c3 3 9 3 12 0v-5"></path>
+                </svg>
+              </div>
+              <h2 class="timeline-column-title">Education Timeline</h2>
+            </div>
+
+            <div class="timeline-track">
+              
+              <!-- Milestone 1: B.Tech CSE at LPU -->
+              <div class="timeline-item">
+                <div class="timeline-node"></div>
+                <div class="glass-card timeline-card">
+                  <div class="timeline-card-header">
+                    <h3 class="timeline-role">Bachelor of Technology (B.Tech)</h3>
+                    <span class="timeline-date">2025 – 2029</span>
+                  </div>
+                  <div class="timeline-org">
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                      <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
+                      <circle cx="12" cy="7" r="4"></circle>
+                    </svg>
+                    <span>Computer Science Engineering • Lovely Professional University (LPU)</span>
+                  </div>
+                  <p style="font-size: 0.875rem; color: var(--text-muted); line-height: 1.5;">
+                    Specializing in Software Development, IoT &amp; Embedded Systems, Algorithms, and Modern Web Architectures.
+                  </p>
+                  <span class="grade-badge">Enrolled Batch 2025–2029</span>
+                </div>
+              </div>
+
+              <!-- Milestone 2: Class XII PCM -->
+              <div class="timeline-item">
+                <div class="timeline-node"></div>
+                <div class="glass-card timeline-card">
+                  <div class="timeline-card-header">
+                    <h3 class="timeline-role">Senior Secondary (Class XII) – PCM</h3>
+                    <span class="timeline-date">2023 – 2024</span>
+                  </div>
+                  <div class="timeline-org">
+                    <span>Physics, Chemistry, Mathematics</span>
+                  </div>
+                  <span class="grade-badge">Score: 80%</span>
+                </div>
+              </div>
+
+              <!-- Milestone 3: Class X -->
+              <div class="timeline-item">
+                <div class="timeline-node"></div>
+                <div class="glass-card timeline-card">
+                  <div class="timeline-card-header">
+                    <h3 class="timeline-role">Secondary (Class X)</h3>
+                    <span class="timeline-date">2021 – 2022</span>
+                  </div>
+                  <div class="timeline-org">
+                    <span>High School Foundation</span>
+                  </div>
+                  <span class="grade-badge">Score: 89%</span>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- 6. CONTACT SECTION -->
+    <section class="section" id="contact">
+      <div class="container">
+        <div class="section-header reveal-init">
+          <div class="section-tag">
+            <span class="tag-dot"></span>
+            <span>Get In Touch</span>
+          </div>
+          <h2 class="section-title">Let’s Build Something <span class="gradient-text">Great Together</span></h2>
+          <p class="section-subtitle">Have an internship opportunity, project collaboration, or technical inquiry? Reach out directly or drop a message below.</p>
+        </div>
+
+        <div class="contact-grid">
+          
+          <!-- Left: Contact Details & Direct Actions -->
+          <div class="contact-info-col reveal-init">
+            <div class="glass-card contact-info-card">
+              <h3 style="font-size: 1.25rem; font-weight: 700;">Direct Contact Channels</h3>
+              
+              <div class="contact-direct-list">
+                
+                <!-- Email Row -->
+                <div class="contact-item-row">
+                  <div class="contact-item-left">
+                    <div class="contact-icon-box">
+                      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                        <polyline points="22,6 12,13 2,6"></polyline>
+                      </svg>
+                    </div>
+                    <div>
+                      <div class="contact-label">Email Address</div>
+                      <a href="mailto:vanshsainicse@gmail.com" class="contact-value" style="color: var(--accent-blue-light);">vanshsainicse@gmail.com</a>
+                    </div>
+                  </div>
+                  <button class="copy-btn" data-copy-text="vanshsainicse@gmail.com" data-copy-label="Email" title="Copy Email">
+                    <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                      <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
+                      <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+                    </svg>
+                    Copy
+                  </button>
+                </div>
+
+                <!-- Phone Row -->
+                <div class="contact-item-row">
+                  <div class="contact-item-left">
+                    <div class="contact-icon-box">
+                      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+                      </svg>
+                    </div>
+                    <div>
+                      <div class="contact-label">Phone &amp; WhatsApp</div>
+                      <a href="tel:+918439448216" class="contact-value">+91 8439448216</a>
+                    </div>
+                  </div>
+                  <button class="copy-btn" data-copy-text="+918439448216" data-copy-label="Phone" title="Copy Phone">
+                    <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                      <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
+                      <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+                    </svg>
+                    Copy
+                  </button>
+                </div>
+
+                <!-- Location Row -->
+                <div class="contact-item-row">
+                  <div class="contact-item-left">
+                    <div class="contact-icon-box">
+                      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                        <circle cx="12" cy="10" r="3"></circle>
+                      </svg>
+                    </div>
+                    <div>
+                      <div class="contact-label">Location / University</div>
+                      <div class="contact-value" style="font-size: 0.85rem;">Lovely Professional University, Punjab • Saharanpur, UP</div>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+
+              <!-- Social Links Cards -->
+              <div class="contact-social-grid">
+                <a href="https://github.com/vanshsaini03" target="_blank" rel="noopener noreferrer" class="social-card-btn">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/>
+                  </svg>
+                  <span>GitHub Profile</span>
+                </a>
+                <a href="#" class="social-card-btn linkedin-placeholder">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
+                  </svg>
+                  <span>LinkedIn</span>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Right: Interactive Contact Form -->
+          <div class="reveal-init stagger-2">
+            <div class="glass-card contact-form-card">
+              <h3 class="form-title">Send a Direct Message</h3>
+              <p class="form-desc">Fill out the details below and click send. I'll get back to you promptly.</p>
+
+              <form class="contact-form" id="contact-form">
+                <div class="form-group">
+                  <label for="form-name" class="form-label">Your Name *</label>
+                  <input type="text" id="form-name" class="form-input" placeholder="e.g. Alex Johnson" required>
+                </div>
+
+                <div class="form-group">
+                  <label for="form-email" class="form-label">Your Email *</label>
+                  <input type="email" id="form-email" class="form-input" placeholder="alex@company.com" required>
+                </div>
+
+                <div class="form-group">
+                  <label for="form-subject" class="form-label">Subject</label>
+                  <input type="text" id="form-subject" class="form-input" placeholder="Internship Opportunity / Project Inquiry">
+                </div>
+
+                <div class="form-group">
+                  <label for="form-message" class="form-label">Message *</label>
+                  <textarea id="form-message" class="form-textarea" maxlength="500" placeholder="Hello Vansh, I'd like to discuss an opportunity..." required></textarea>
+                  <div class="form-feedback">
+                    <span>Be as detailed as you like</span>
+                    <span id="message-char-count">0 / 500</span>
+                  </div>
+                </div>
+
+                <button type="submit" class="btn btn-primary ripple" style="width: 100%; padding: 0.95rem;">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <line x1="22" y1="2" x2="11" y2="13"></line>
+                    <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+                  </svg>
+                  Send Message
+                </button>
+              </form>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ==================== FOOTER ==================== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-info">
+          <span class="footer-brand">Vansh Saini</span>
+          <p class="footer-tagline">B.Tech Computer Science Engineering Student • Lovely Professional University (2025–2029)</p>
+        </div>
+
+        <nav class="footer-nav" aria-label="Footer Navigation">
+          <a href="#home" class="footer-link">Home</a>
+          <a href="#about" class="footer-link">About</a>
+          <a href="#skills" class="footer-link">Skills</a>
+          <a href="#projects" class="footer-link">Projects</a>
+          <a href="#experience" class="footer-link">Experience</a>
+          <a href="#education" class="footer-link">Education</a>
+          <a href="#contact" class="footer-link">Contact</a>
+        </nav>
+      </div>
+
+      <div class="footer-bottom">
+        <div>
+          <span>&copy; 2026 Vansh Saini. Built with clean HTML5, CSS3 &amp; JavaScript.</span>
+        </div>
+        <button id="back-to-top" class="back-to-top-btn" title="Scroll back to top">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <polyline points="18 15 12 9 6 15"></polyline>
+          </svg>
+          Back to Top
+        </button>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ==================== PROJECT DEEP-DIVE MODAL ==================== -->
+  <div class="modal-overlay" id="project-modal" role="dialog" aria-modal="true" aria-labelledby="modal-title-heading">
+    <div class="modal-window">
+      <div class="modal-header">
+        <div class="file-tab" id="modal-title-heading">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect>
+            <line x1="3" y1="9" x2="21" y2="9"></line>
+            <line x1="9" y1="21" x2="9" y2="9"></line>
+          </svg>
+          <span>Project Architecture &amp; System Specs</span>
+        </div>
+        <button class="modal-close-btn" id="modal-close-btn" aria-label="Close Project Modal">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <line x1="18" y1="6" x2="6" y2="18"></line>
+            <line x1="6" y1="6" x2="18" y2="18"></line>
+          </svg>
+        </button>
+      </div>
+      <div class="modal-body" id="modal-dynamic-content">
+        <!-- Injected via modal.js -->
+      </div>
+    </div>
+  </div>
+
+  <!-- ==================== TOAST NOTIFICATION CONTAINER ==================== -->
+  <div class="toast-container" id="toast-container" aria-live="polite"></div>
+
+  <!-- ==================== SCRIPTS ==================== -->
+  <script src="js/background.js"></script>
+  <script src="js/modal.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
